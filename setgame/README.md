@@ -15,6 +15,8 @@ You may import the doctest, enum, and random modules from the Python Standard Li
 
 Resources
 
-Wikipedia page about the game
-Daily puzzle so you can try your hand
-Python Enum documentation
+Game Explanation --->
+https://en.wikipedia.org/wiki/Set_(card_game)
+https://www.setgame.com/set/puzzle
+Enum Documentation --->
+https://docs.python.org/3/library/enum.html
