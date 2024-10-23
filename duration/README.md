@@ -1,7 +1,7 @@
-##Objective
+## Objective
 Practice basic object-oriented programming constructs by implementing, testing, and using a class that represents durations.
 
-##Procedure
+## Procedure
 Create a Duration class that represents the length of a span of time (usually measured in hours, minutes, and seconds). 
 You may not use datetime or any other time-related Python modules. Your class should have the following functionality:
 
