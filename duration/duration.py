@@ -1,3 +1,4 @@
+#This is final draft
 class Duration:
     def __init__(self, *args):
         if len(args) == 1:
