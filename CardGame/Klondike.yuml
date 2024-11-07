@@ -1,0 +1,25 @@
+// {type:class}
+// {direction:topDown}
+
+// Classes, fields & methods
+// [Rank|ACE;TWO-TEN;JACK;QUEEN;KING]
+// [Suit|SPADES;HEARTS;CLUBS;DIAMONDS]
+// [SuitStack]-[note:same suit, next rank]
+// [TableStack]-[note:opp color,prev rank]
+// [Klondike]
+
+// Connections
+// [Enum]^[Rank]
+// [Enum]^[Suit]
+// [Rank]-<>[Card]
+// [Suit]-<>[Card]
+[Card]-<>[Stack]
+[Stack]^[Deck]
+[Stack]^[SuitStack]
+[Stack]^[TableStack]
+
+// Game
+[Stack]-<>[Klondike]
+[Deck]-<>[Klondike]
+[SuitStack]-<>[Klondike]
+[TableStack]-<>[Klondike]

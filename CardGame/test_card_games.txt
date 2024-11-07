@@ -1,0 +1,12 @@
+>>> from random import seed
+>>> from updated import Klondike
+>>> seed(12345)
+>>> game = Klondike()
+>>> game.is_finished()
+False
+>>> game.play_one("1S")
+>>> game.play_one("2S")
+>>> str(game).count('[]')
+2
+
+>>> seed() # leave this in to randomize games, otherwise you always get the same one
